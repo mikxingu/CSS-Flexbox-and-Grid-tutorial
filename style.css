@@ -20,6 +20,7 @@ a {
 }
 
 h1 {
+    color: white;
     font-size: 30px;
     font-weight: 600;
     margin: 10px 0;
@@ -101,3 +102,59 @@ p {
     border-bottom: 3px solid #F39B6D;
 
 }
+
+.showcase {
+    height: 300px;
+    background-color: #381D2A;
+}
+
+.showcase p {
+    margin-bottom: 30px;
+}
+
+.showcase img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, .2);
+}
+
+.showcase-form {
+    margin: auto;
+    padding-left: 7px;
+}
+
+.little-info {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
+
+.showcase input[type='email'] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: #F39B6D;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.grid-item-1,
+.grid-item-2 {
+    position: relative;
+    top: 50px;
+}
+
